@@ -97,7 +97,7 @@ for i in range(0,7):
     else:
         print('xx')
 
-'''
+
 
 a,b,c = eval(input(">>"))
 if a<b:
@@ -107,6 +107,25 @@ if a<c:
 if b<c:
     b,c=c,b
 print(c,b,a)
+
+
+#927
+path = 'fafa.txt'
+file_= open(path,'w.txt',encoding='utf-8')
+file_.write('ni hao wo si haha')
+
+
+
+path = 'test.txt'  #success
+with open(path,'w',encoding='utf-8') as joker:
+    joker.write('joker is very good')
+
+'''
+
+#8
+text = g
+
+
 
 
 
