@@ -91,14 +91,18 @@ import self
 #     duobianxin(5,6,56,47).getarea()
 
 #4
-# class fan:
-#     def __init__(self,speed,kaiguan,radius,color):
-#         self.__speed = speed
-#         self.__kaiguan = bool(kaiguan)
-#         self.__radius = radius
-#         self.__color = color
-#     def
-
+class fan:
+    def __init__(self,speed,kaiguan,radius,color):
+        self.__speed = speed
+        self.__kaiguan = kaiguan
+        self.__radius = radius
+        self.__color = color
+    def show(self):
+        print('[+] speed',self.__speed)
+        print('[+] kaiguan',self.__kaiguan)
+        print('[+]radius',self.__radius)
+        print('[+] color',self.__color)
+fan(speed=1,kaiguan='on',radius=8,color='yelow').show()
 
 #5
 
